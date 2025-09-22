@@ -10,6 +10,7 @@ import tkinter as tk
 from tkinter import messagebox
 from datetime import datetime
 import math
+import pandas as pd
 
 # ---------- Dummy backend user data ----------
 # In real usage, this could call your local automation backend
