@@ -14,6 +14,7 @@ from app.config import settings
 import structlog
 
 logger = structlog.get_logger()
+logger.obj()
 
 
 class SummarizationService:
@@ -366,3 +367,4 @@ class SummarizationService:
 
 # Global summarization service instance
 summarization_service = SummarizationService()
+
