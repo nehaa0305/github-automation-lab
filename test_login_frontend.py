@@ -9,6 +9,7 @@ Single-file test frontend for PR/issue automation.
 import tkinter as tk
 from tkinter import messagebox
 from datetime import datetime
+import math
 
 # ---------- Dummy backend user data ----------
 # In real usage, this could call your local automation backend
